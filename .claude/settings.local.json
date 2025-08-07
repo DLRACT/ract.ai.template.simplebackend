@@ -24,7 +24,11 @@
       "WebFetch(domain:docs.microsoft.com)",
       "WebFetch(domain:learn.microsoft.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:dotnet.microsoft.com)",
+      "WebFetch(domain:azure.microsoft.com)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
