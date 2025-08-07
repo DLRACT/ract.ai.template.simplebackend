@@ -1,29 +1,48 @@
-# Claude Agentic Patterns Template
+# Simple Backend Template
 
-This is a template repository containing Claude Code agent configurations and patterns.
+A minimal template for simple backend APIs used during the MVP phase and for experimentation.
 
-## Quick Start
+## Requirements
 
-1. Click "Use this template" to create your repository
-2. Customize the agents in `.claude/agents/` for your project
-3. Modify commands in `.claude/commands/` as needed
-4. Start using Claude Code with your custom agent setup
+* Minimal API pattern
+    + Hello World endpoint: /api/hello
+    + Health endpoint: /api/health
+* Basic configuration
+    + No secrets in code
+* Simple health checks
+* Console logging only
+* Stateless
+* CICD
 
-## What's Included
+## Risks
 
-- **Agents**: Pre-configured specialized agents for different tasks
-- **Commands**: Slash commands for common development workflows  
-- **Patterns**: Implementation patterns following Claude Code best practices
+* Open to internet
+* No authentication
+* No storage
+* No caching
 
-## Documentation
+## Stack
 
-For full documentation and implementation details, see the main repository:
-https://github.com/benjamin-johnston-work/agenticpatterns
+* Windows development environment
+* VS Code IDE
+* C# 8 on dotnet
+* Powershell scripting
+* Azure hosting
+    + Azure App Service
+* Azure DevOps Pipeline
 
-## Usage
+## Excluded
 
-This template provides a production-ready Claude Code setup. Customize the agents and commands to match your project's specific needs.
+Azure related stack excluded from this template:
 
----
-
-*Template manually synced from main repository*
+* Functions
+* VNET
+* Private Endpoint
+* API Management
+* Key Vault
+* App Config
+* Blob storage
+* SQL
+* Cosmos DB
+* Redis Cache
+* Service Bus
